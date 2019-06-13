@@ -1,11 +1,11 @@
 import Route from '@ember/routing/route';
-import EmberObject from '@ember/object';
+ import EmberObject from '@ember/object';
 
-let Song = EmberObject.extend({
-  title: '',
-  band: '',
-  rating: 0
-});
+ let Song = EmberObject.extend({
+   title: '',
+   band: '',
+   rating: 0
+ });
 
 export default Route.extend({
   model() {
@@ -23,7 +23,7 @@ export default Route.extend({
 
     let pretender = Song.create({
       title: 'The Pretender',
-      band: 'Foo Fighers',
+      band: 'Foo Fighters',
       rating: 2
     });
 
