@@ -1,0 +1,9 @@
+{{outlet}}
+
+{{!-- app/templates/bands.hbs --}}
+
+<ul class="list pl3">
+  {{#each model as |band|}}
+    <li>{{band.name}}</li>
+  {{/each}}
+</ul>
